@@ -1,0 +1,154 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    width: 1024px;
+    height: 500px;
+    background-color: aquamarine;
+    background-image: url(Images/header.jpg);
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 615px;
+    padding-left: 204.5px;
+    padding-right: 204.5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-black{
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    background:url(Images/bouton.png) no-repeat;
+    color:white;
+    text-decoration:none;
+}
+
+#aPropos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 615px;
+    height: 300px;
+    background-color: white;
+    padding-left: 204.5px;
+    padding-right: 204.5px;
+    text-align: justify;
+}
+
+#premierRang {
+    display: flex;
+    height: auto;
+    width: 1024px;
+    background-color: #426c5e;
+}
+
+.imageGauche {
+    width: 600px;
+    height: 350px;
+    background-color: aqua;
+    background-image: url(Images/redbull.jpg);
+}
+
+.texteDroite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 350px;
+    padding-left: 146px;
+    padding-right: 146px;
+    background-color: white;
+    text-align: justify;
+    color: #55899c;
+}
+
+#deuxiemeRang {
+    display: flex;
+    height: 350px;
+    width: 1024px;
+    background-color: pink;
+}
+
+.texteGauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 350px;
+    padding-left: 146px;
+    padding-right: 146px;
+    background-color: white;
+    text-align: justify;
+    color: #55899c;
+}
+
+.imageDroite {
+    width: 600px;
+    height: 350px;
+    background-color: aqua;
+    background-image: url(Images/sugarfree.jpg);
+}
+
+#evenements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 615px;
+    padding-left: 204.5px;
+    padding-right: 204.5px;
+    background-color: white;
+    text-align: justify;
+}
+
+#deuxiemeBanniere {
+    height: 500px;
+    width: 1024px;
+    background-color: red;
+    background-image: url(Images/evenements.jpg);
+}
+
+#athletes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 615px;
+    height: 310px;
+    padding-left: 204.5px;
+    padding-right: 204.5px;
+    background-color: white;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 615px;
+    height: 100px;
+    margin-top: 30px;
+    padding-left: 204.5px;
+    padding-right: 204.5px;
+    background-color: #3c788e;
+    color: white;
+}
